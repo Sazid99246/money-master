@@ -32,4 +32,25 @@ document.getElementById('calculate-btn').addEventListener('click', function (eve
     if(clothes < 0) {
         alert('Please Input a Valid Number');
     }
+    if (totalExpence > income) {
+        alert('Please Input a Valid Number');
+    }
+    // savings section
+    document.getElementById('savings-button').addEventListener('click',function (event) {
+        event.preventDefault();
+        // saving amount
+        const savingText = document.getElementById('savings-input').value;
+        const saving = parseInt(savingText);
+        const savingAmount = income / 100 * saving;
+        const savings = document.getElementById('savings-amount');
+        savings.innerText = savingAmount;
+
+        // remaining amount
+        const remainingAmount = document.getElementById('remaining-balance');
+        const remainings = newBalance - savingAmount;
+        remainingAmount.innerText = remainings;
+        if (savingAmount > newBalance) {
+            alert('Please enter a valid number');
+        }
+    })
 })
