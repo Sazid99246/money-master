@@ -1,12 +1,17 @@
+/* header Section */
 h1{
     color: #31A5AC;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
 }
+
+/* image */
 img{
     width: 500px;
     height: 815px;
 }
+
+/* form section */
 .calculating{
     background-color: #F8F8F8;
 }
