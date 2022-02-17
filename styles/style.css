@@ -1,0 +1,48 @@
+h1{
+    color: #31A5AC;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+img{
+    width: 500px;
+    height: 815px;
+}
+.calculating{
+    background-color: #F8F8F8;
+}
+.headings {
+    font-family: 'Roboto', sans-serif;    
+    font-weight: 500;
+}
+input {
+    background-color: #DCDCDC;
+    border: none;
+    width: 229px;
+    height: 44px;
+    font-weight: 400;
+}
+.calcultaion-button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    width: 199px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#savings-input{
+    margin-right: 15px;
+    width: 133px;
+}
+#savings-button{
+    width: 173px;
+    height: 44px;
+    margin-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;    
+}
+.form-items{
+    margin-bottom: 20px;
+}
+label {
+    display: inline-block;
+    width: 80px;
+}
